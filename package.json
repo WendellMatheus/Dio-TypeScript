@@ -10,6 +10,7 @@
   "author": "Wendell Matheus",
   "license": "ISC",
   "dependencies": {
+    "gitignore": "^0.7.0",
     "parcel-bundler": "^1.12.5"
   },
   "devDependencies": {
