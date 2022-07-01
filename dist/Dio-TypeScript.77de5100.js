@@ -118,21 +118,11 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"index.ts":[function(require,module,exports) {
-// function soma(a: number , b: number) {
-//     return a + b;
-// }
 var animal = {
-  nome: 'Elefante',
-  tipo: 'terrestre',
-  executarRugido: function executarRugido(alturaEmDecibeis) {
-    return "".concat(alturaEmDecibeis, "dB");
-  }
-};
-animal.executarRugido('s');
-var felino = {
-  nome: 'Leão',
-  tipo: 'terrestre',
-  visaoNoturna: true
+  domestico: true,
+  nome: 'Cachorro',
+  porte: 'medio',
+  tipo: 'terrestre'
 };
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
